@@ -88,8 +88,8 @@ body * {
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: #fcfcfc;
-    color: #f0ffff;
+    background: #f8f7f7;
+    color: #000000;
     font-size: 12pt;
     box-shadow: 0px 10px 40px #00000056 ;
     outline: none;
@@ -97,12 +97,12 @@ body * {
 }
 
 .textfield > label{
-    color: #f0ffffde;
+    color: #ffffffde;
     margin-bottom: 10px;
 }
 
 .textfield > label::placeholder{
-    background-color: #f80404;
+    color: #ffffff;
 }
 
 .btn-login{
