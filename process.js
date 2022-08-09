@@ -17,9 +17,9 @@ function check() {
 
  
 
- if(signos == "-" || (signos == "resta")){
+  if(signos == "-" || signos == "resta" || signos == "restar"){
     resta()
-  }else if(signos == "+" || signos == "sumar"){
+  }else if(signos == "+" || signos == "sumar" || signos == "suma"){
     suma()
   }else if(signos == "*" || signos == "multiplicacion"){
     multiplicacion()
@@ -29,10 +29,13 @@ function check() {
     modulo()
   }else if(n1 == "" && n2 =="" && signos ==""){
     resultado.textContent = "Campos Vacios"
-  }else{
+    check()
+  }
+  else{
     resultado.textContent = "Revisar campos"
 
   }
+  
 }
   
 
