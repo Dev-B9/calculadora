@@ -44,8 +44,8 @@ function check() {
   }else if(n1 == "" && n2 =="" & signos ==""){
     resultado.textContent = "El resultado es:"
   }else{
-   signo.value = ""
-   resultado.textContent = "El resultado es: ¡Dato erroneo!"
+   resultado.textContent = "¡Dato erroneo campo operacion!"
+   
   }
 }
   
