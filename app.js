@@ -50,9 +50,6 @@ function check() {
 }
   
 
-
-
-
 // suma 
 function suma (){
 
