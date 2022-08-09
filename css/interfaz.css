@@ -16,7 +16,7 @@ body * {
     box-sizing: border-box;
 }
 
-.main-login{
+.main-calculator{
     width: 100vw;
     height: 100vh;
     /* background: #121213; */
@@ -27,7 +27,7 @@ body * {
     align-items: center;
 }
 
-.left-login{
+.left-calculator{
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -38,11 +38,11 @@ body * {
 }
 
 
-.left-login-image{
+.left-calculator-image{
     width: 35vw;
 }
 
-.right-login{
+.right-calculator{
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -51,7 +51,7 @@ body * {
 }
 
 
-.card-login{
+.card-calculator{
     width: 60%;
     display: flex;
     justify-content: center;
@@ -66,7 +66,7 @@ body * {
 }
 
 
-.card-login > h1{
+.card-calculator > h1{
     color: #00ff00;
     font-weight: 800;
     margin: 0;
@@ -106,7 +106,7 @@ body * {
     color: #ffffff;
 }
 
-.btn-login{
+.btn-result{
     width: 100%;
     padding: 16px 0px;
     margin: 25px;
@@ -118,45 +118,44 @@ body * {
     letter-spacing: 3px;
     color: #2b134b;
     background-color: #00ff00;
-    cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
 }
 
 
 @media only screen and (max-width: 950px){
-    .card-login{
+    .card-calculator{
         width: 85%;
     }
 }
 
 @media only screen and (max-width: 600px){
-   .main-login{
+   .main-calculator{
     flex-direction: column;
    }
 
-   .left-login > h1{
+   .left-calculator > h1{
     display: none;
     
    }
 
-   .left-login{
+   .left-calculator{
     width: 100%;
     height: auto;
     
    }
 
-   .right-login{
+   .right-calculator{
     width: 80%;
     height: auto;
    }
 
-   .left-login-image{
+   .left-calculator-image{
     width: 50vw;
     margin: 0;
 
    }
 
-   .card-login{
+   .card-calculator{
     width: 90%;
    }
 }
