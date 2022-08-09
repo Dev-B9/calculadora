@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/interfaz.css">
+    <title>Calculadora</title>
 </head>
 <body>
-  <main>
-
-  <div id="container">
-    <input type="number" id="dato1" >
-    <input type="text" id="signo" placeholder="signo/palabra operacion">
-    <input type="number" id="dato2">    
-    <p id="resultado"> El resultado es : </p>
-
-  </div>
-
-</main>
-
-  <script src="app.js"></script>
- 
+    <section class="main-login">
+        <div class="left-login">
+            <img src="images/calculator-animate.svg"  class="left-login-image"alt="hombre en pc animado">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>Calculadora</h1>
+                <div class="textfield">
+                    <label > Ingresa un numero</label>
+                    <input type="number" id="dato1"  placeholder="Introduce El Numero">
+                </div>
+                <div class="textfield">
+                    <label > Ingresa signo o palabra de la operacion</label>
+                    <input  type="text" id="signo" placeholder=" Signo o palabra de operacion ">
+                </div>
+                <div class="textfield">
+                    <label > Ingresa un segundo numero</label>
+                    <input  type="number" id="dato2" placeholder="Introduce El segundo numero">
+                </div>
+                <button class="btn-login" id="resultado" >Resultado</button>
+            </div>
+        </div>
+    </section>
+    <script src="process.js"></script>
+    <script type='text/javascript'>document.addEventListener('DOMContentLoaded', function () {window.setTimeout(document.querySelector('svg'),1000);})</script>
 </body>
 </html>
